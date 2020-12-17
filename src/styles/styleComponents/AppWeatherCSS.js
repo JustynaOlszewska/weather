@@ -22,5 +22,8 @@ overflow: hidden;
 @media(min-width: ${breakPoints.middle}) {
     font-size: 4rem;
 };
+@media(min-height: 730px) and (orientation: portrait) {
+    font-size: 4rem;
+};
 };
 `;

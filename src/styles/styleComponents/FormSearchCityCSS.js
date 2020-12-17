@@ -22,6 +22,9 @@ export const StyleFormSearchCity = styled.form`
 @media(min-width: ${breakPoints.maxlarge}) {
   font-size: 2.3rem;
 };
+@media(min-height: 730px) and (orientation: portrait) {
+    font-size: 2rem;
+};
 };
 
 & .label {
@@ -40,6 +43,9 @@ export const StyleFormSearchCity = styled.form`
 
 @media(min-width: ${breakPoints.maxlarge}) {
   font-size: 2.3rem;
+};
+@media(min-height: 730px) and (orientation: portrait) {
+    font-size: 2rem;
 };
 };
 `;
@@ -62,5 +68,8 @@ export const StyleLink = styled(NavLink).attrs({ activeClassName })`
   
   @media(min-width: ${breakPoints.maxlarge}) {
   font-size: 2rem;
+};
+@media(min-height: 730px) and (orientation: portrait) {
+    font-size: 2rem;
 };
 `;
