@@ -1,2 +1,0 @@
-(this.webpackJsonpmadmountain=this.webpackJsonpmadmountain||[]).push([[6],{66:function(t,n,e){"use strict";e.r(n);var c=e(3),i=(e(0),e(18));n.default=function(){return Object(c.jsxs)("div",{children:[Object(c.jsx)("h1",{children:"404 - Not Found!"}),Object(c.jsx)(i.b,{to:"/",children:"go weather"})]})}}}]);
-//# sourceMappingURL=6.c5d3b69b.chunk.js.map
