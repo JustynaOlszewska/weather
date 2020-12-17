@@ -24,7 +24,7 @@ const FormSearchCity = ({ city, getInputValue, getCityFromInput }) => {
             <input className="input" type="text" id="city" name="city" value={city} onChange={handleChange} required />
             <StyleUl>
                 <li>
-                    <StyleLink exact to="/weather" onClick={handleClick} >Search</StyleLink>
+                    <StyleLink to="/forecast" onClick={handleClick} >Search</StyleLink>
                 </li>
             </StyleUl>
         </StyleFormSearchCity>

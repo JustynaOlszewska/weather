@@ -19,7 +19,7 @@ const WeatherListDetails = ({ weather }) => {
             <p>wind speed: {Math.round(parseFloat(wind_spd))} km/h</p>
             <p>wind direction: {wind_cdir_full} </p>
             <p>The last time data was updated: {ob_time}</p>
-            <StyleLink exact to='/weather'>Close</StyleLink>
+            <StyleLink exact to='/forecast'>Close</StyleLink>
         </StyleArticle >
     );
 };

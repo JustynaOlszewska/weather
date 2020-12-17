@@ -37,11 +37,10 @@ const AppWeather = () => {
 
     const getInputValue = value => {
         setInputValue(value);
-
     };
 
     const getCityFromInput = () => {
-        if (inputValue === '') return alert('Enter city, please')
+        if (inputValue === '') return alert('Enter city, please');
         setCityFromInput(inputValue);
         setInputValue('');
     };
@@ -51,8 +50,8 @@ const AppWeather = () => {
             <h1>Weather</h1>
             <FormSearchCity city={inputValue} getInputValue={getInputValue} getCityFromInput={getCityFromInput} />
             <Switch>
-                <Route exact path='/' component={() => <Wish />} />
-                <Route path='/weather' component={() => <WeatherList weather={weather} />} />
+                <Route exact path='/weather' component={() => <Wish />} />
+                <Route path='/forecast' component={() => <WeatherList weather={weather} />} />
                 <Route component={NotFound} />
             </Switch>
         </StyleApplication>

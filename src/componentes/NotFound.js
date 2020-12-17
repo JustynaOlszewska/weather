@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const NotFound = () => (
   <div>
     <h1>404 - Not Found!</h1>
-    <NavLink to="/">
+    <NavLink to="/weather">
       go weather
     </NavLink>
   </div>
