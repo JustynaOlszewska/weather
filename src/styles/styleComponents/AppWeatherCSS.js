@@ -15,12 +15,12 @@ overflow: hidden;
 
 & > h1 {
 @media(min-width: ${breakPoints.small}) {
-    font-size: 3rem;
+    font-size: 1rem;
     margin-bottom: 1px;
 };
 
 @media(min-width: ${breakPoints.middle}) {
-    font-size: 4rem;
+    font-size: 2rem;
 };
 @media(min-height: 730px) and (orientation: portrait) {
     font-size: 4rem;
