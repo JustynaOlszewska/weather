@@ -1,0 +1,2 @@
+(this.webpackJsonpmadmountain=this.webpackJsonpmadmountain||[]).push([[9],{68:function(n,t,a){"use strict";a.r(t);var e=a(3);a(0);t.default=function(){return Object(e.jsx)("h1",{children:"I wish you good weather"})}}}]);
+//# sourceMappingURL=9.810d6f67.chunk.js.map

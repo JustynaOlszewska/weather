@@ -1,0 +1,1 @@
+{"version":3,"sources":["componentes/Wish.js"],"names":["Wish"],"mappings":"kIAUeA,UARF,WACT,OACI","file":"static/js/9.810d6f67.chunk.js","sourcesContent":["import React from 'react';\r\n\r\nconst Wish = () => {\r\n    return (\r\n        <h1>\r\n            I wish you good weather\r\n        </h1>\r\n    );\r\n};\r\n\r\nexport default Wish;"],"sourceRoot":""}
