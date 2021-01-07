@@ -11,41 +11,42 @@ export const StyleFormSearchCity = styled.form`
     color: #FFF;
 
     @media(min-width: ${breakPoints.small}) {
-      font-size: 1.5rem;
+      font-size: 1rem;
+      padding: 3px 10px;
       margin-top: 10px;
     };
 
     @media(min-width: ${breakPoints.middle}) {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
 };
 
 @media(min-width: ${breakPoints.maxlarge}) {
-  font-size: 2.3rem;
+  font-size: 1.8rem;
 };
 @media(min-height: 730px) and (orientation: portrait) {
-    font-size: 2rem;
+    font-size: 1.5rem;
 };
 };
 
 & .label {
 
   @media(min-width: ${breakPoints.small}) {
-  font-size: 1.5rem;
+  font-size: 1rem;
   display: block;
   width: 100%;
   margin-top: 30px;
 };
 
 @media(min-width: ${breakPoints.middle}) {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   margin-top: 70px;
 };
 
 @media(min-width: ${breakPoints.maxlarge}) {
-  font-size: 2.3rem;
+  font-size: 1.8rem;
 };
 @media(min-height: 730px) and (orientation: portrait) {
-    font-size: 2rem;
+    font-size: 1.5rem;
 };
 };
 `;
@@ -55,7 +56,7 @@ list-style: none;
 padding-left: 0;
 
  @media(min-width: ${breakPoints.middle}) {
-  font-size: 1.4rem;
+  font-size: 0.9rem;
 };
 `;
 

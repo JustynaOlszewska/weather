@@ -7,7 +7,7 @@ import { StyleLink, StyleArticle } from '../styles/styleComponents/WeatherListCS
 
 const WeatherListDetails = lazy(() => import('../componentes/WeatherListDetails'));
 
-const WeatherList = ({ weather }) => {
+const WeatherList = React.memo(({ weather }) => {
 
     const { url, path } = useRouteMatch();
 
@@ -15,7 +15,9 @@ const WeatherList = ({ weather }) => {
     const { icon, description } = weather[0].weather;
 
     return (
+
         <StyleArticle>
+
             <h1>{city_name}</h1>
             <img src={`https://www.weatherbit.io/static/img/icons/${icon}.png`} alt="weather" />
             <p>{description}</p>
@@ -26,7 +28,7 @@ const WeatherList = ({ weather }) => {
             </Switch>
         </StyleArticle>
     );
-};
+});
 
 WeatherList.propTypes = {
     weather: PropTypes.array.isRequired,
