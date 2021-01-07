@@ -12,8 +12,9 @@ export const useWeatherApi = () => {
 
     const [isError, setIsError] = useState(false);
 
-    useEffect(() => {
 
+
+    useEffect(() => {
         const fetchData = async () => {
             try {
                 setIsError(false);
@@ -25,14 +26,12 @@ export const useWeatherApi = () => {
                 console.log(error);
             };
         };
-
-        fetchData();
-
+        fetchData()
     }, [url]);
 
     const alertCity = () => {
         alert('Wrong city, I am sorry')
     };
 
-    return [{ weather, isError }, setUrl]
+    return [{ weather, isError }, setUrl];
 };
